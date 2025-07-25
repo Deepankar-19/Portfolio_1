@@ -51,29 +51,7 @@ const Footer = () => {
           {/* Divider */}
           <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent mb-8"></div>
 
-          {/* Bottom Section */}
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-2 text-gray-400">
-              <span>&copy; {currentYear} Deepankar Sharma.</span>
-              <span>Made with</span>
-              <Heart size={16} className="text-red-500 fill-current animate-pulse" />
-              <span>and</span>
-              <Coffee size={16} className="text-yellow-500" />
-              <span>in Chennai</span>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2 text-gray-400">
-                <Code size={16} className="text-blue-400" />
-                <span className="text-sm">Built with React & Tailwind</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-400">
-                <Sparkles size={16} className="text-purple-400" />
-                <span className="text-sm">Powered by passion</span>
-              </div>
-            </div>
-          </div>
-
+          
           {/* Fun Element */}
           <div className="text-center mt-8 pt-8 border-t border-gray-800">
             <p className="text-gray-500 text-sm font-mono">
