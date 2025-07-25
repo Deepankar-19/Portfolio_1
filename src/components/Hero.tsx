@@ -71,12 +71,7 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
         <div className={`transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          {/* Status Badge */}
-          <div className="inline-flex items-center space-x-2 glass px-4 py-2 rounded-full mb-8 animate-pulse-glow">
-            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-            <span className="text-sm font-mono text-gray-300">Available for opportunities</span>
-            <Sparkles size={14} className="text-yellow-400" />
-          </div>
+         
 
           {/* Main Heading */}
           <div className="mb-8">
